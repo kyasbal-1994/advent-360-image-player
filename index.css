@@ -1,0 +1,27 @@
+html, body, body>div {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.canvas-container {
+    width: 100%;
+}
+
+.canvas-controls {
+    position: absolute;
+		bottom:30px;
+		right: 0px;
+}
+
+.canvas-controls > a{
+	background-color: rgba(0,0,0,0.6);
+	color:white;
+	padding: 20px;
+	margin: 10px;
+}
+
+.canvas-controls > a:hover{
+	background-color: rgba(0,0,0,0.8);
+	cursor: pointer;
+}
